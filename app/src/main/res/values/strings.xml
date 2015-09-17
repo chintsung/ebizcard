@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">eBizCard</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add</string>
+    <string name="title_activity_add">Add Personal Profile</string>
+    <string name="text_name">Name</string>
+    <string name="text_title_in_your_org">Title in your organization</string>
+    <string name="spinner_photo_selection">Select photo</string>
+
+    <string-array name="photo_selection_spinner_list">
+        <item>photo_search_from_gallery</item>
+        <item>photo_search_from_camera</item>
+    </string-array>
+
+    <array name="photo_selection_spinner_icon_list">
+        <item>@drawable/ic_photo_album_black_24dp</item>
+        <item>@drawable/ic_local_see_black_24dp</item>
+    </array>
+</resources>
