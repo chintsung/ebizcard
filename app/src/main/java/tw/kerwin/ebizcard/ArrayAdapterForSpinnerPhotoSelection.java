@@ -30,7 +30,7 @@ public class ArrayAdapterForSpinnerPhotoSelection extends ArrayAdapter<CharSeque
         mTypeArr = context.getResources().obtainTypedArray(R.array.photo_selection_spinner_icon_list);
     }
 
-    @Override
+    /*@Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View v = mLayInf.inflate(R.layout.spinner_select_photo_item, parent, false);
 
@@ -38,7 +38,7 @@ public class ArrayAdapterForSpinnerPhotoSelection extends ArrayAdapter<CharSeque
         imgView.setImageResource(R.drawable.ic_local_see_black_24dp);
 
         return v;
-    }
+    }*/
 
     @Override
     public View getDropDownView(int position, View convertView, ViewGroup parent) {
